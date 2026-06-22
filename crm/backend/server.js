@@ -13,9 +13,10 @@ const app = express();
 // CORS
 app.use(cors({
   origin: [
-    "http://localhost:3000",
-    "https://future-fs-02-olive-six.vercel.app"
-  ],
+  "http://localhost:3000",
+  "https://future-fs-02-olive-six.vercel.app",
+  "https://future-fs-02-three-tau.vercel.app"
+],
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: [
